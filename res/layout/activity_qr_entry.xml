@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/qr_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="כרטיס כניסה"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="#ffffff"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp">
+        <ImageView
+            android:id="@+id/qr_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/qr_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/qr_close_button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:text="סגור"
+        android:backgroundTint="@color/panel_alt"
+        android:textColor="@color/text_primary" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#16181d</color>
+    <color name="panel">#1e2128</color>
+    <color name="panel_alt">#252932</color>
+    <color name="border">#2b2f38</color>
+    <color name="text_primary">#e6e8eb</color>
+    <color name="text_muted">#8b93a1</color>
+    <color name="accent">#4f8cff</color>
+    <color name="accent_dark">#3d70d6</color>
+    <color name="ok">#3ecf8e</color>
+    <color name="ok_bg">#1c3a2d</color>
+    <color name="warn">#e0a336</color>
+    <color name="warn_bg">#3a2f18</color>
+    <color name="err">#e0554f</color>
+    <color name="err_bg">#3a2020</color>
+    <color name="neutral_bg">#2b2f38</color>
+    <color name="input_bg">#11131a</color>
+</resources>
